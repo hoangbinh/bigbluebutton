@@ -20,6 +20,8 @@ else if(/^([a-z]+)$/i.test(localeChain)){
 else{
         localeChain = "en_US";
 }
+//set default language to vi_VN
+localeChain = "vi_VN";
 
 function getLanguage(){
         return localeChain;
